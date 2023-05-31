@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+  }
+  
+  header {
+    background-color: #1bc4b0;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #14AE9C(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  .tracking-info {
+    margin-top: 20px;
+    position: relative;
+    display: flex; /* Adição: exibe os elementos em linha */
+    align-items: center; /* Adição: centraliza verticalmente */
+  }
+  
+  .status {
+    font-weight: bold;
+  }
+  
+  .location {
+    font-style: italic;
+  }
+  
+  .progress-bar-container {
+    width: 10px;
+    height: 100px; /* Adição: altura do contêiner */
+    background-color: #ddd;
+    margin-right: 10px;
+  }
+  
+  .progress-bar {
+    height: 0; /* Modificação: altura inicial da barra de progresso */
+    background-color: #4CAF50;
+    transition: height 0.5s; /* Adição: animação de transição */
+  }
+
+  .footer__container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #1bc4b0;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+
+}
+
+    .company {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5;
+    }

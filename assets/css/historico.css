@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #1bc4b0;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+    align-items: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  .service-card {
+    border: 1px solid #14AE9C;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .service-card h2 {
+    margin-top: 0;
+  }
+  
+  .service-card .status {
+    font-weight: bold;
+  }
+  
+  .service-card .date {
+    font-style: italic;
+    color: #14AE9C;
+  }
+  
+  .service-card p {
+    margin: 5px 0;
+  }
+
+  .footer__container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #1bc4b0;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+
+}
+
+    .company {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5;
+    }
